@@ -16,6 +16,13 @@ import { MessagesComponent } from './messages/messages.component';
 import { MessageService } from './message.service';
 
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
+
+//Locale stuff
+import { registerLocaleData } from '@angular/common';
+import { LOCALE_ID } from '@angular/core';
+import localeEsAr from '@angular/common/locales/es-AR';
+registerLocaleData(localeEsAr);
 
 @NgModule({
   declarations: [
@@ -23,7 +30,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    DashboardComponent
+    DashboardComponent,
+    HeroSearchComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +44,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
   ],
   providers: [
     HeroService,
-    MessageService
+    MessageService,
+    {provide: LOCALE_ID, useValue: 'es-AR'}
   ],
   bootstrap: [AppComponent]
 })

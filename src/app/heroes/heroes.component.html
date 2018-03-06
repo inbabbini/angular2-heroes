@@ -1,8 +1,18 @@
-<h2> HEROES </h2>
+<h2 i18n="Heroes | Hero component title"> HEROES </h2>
 <ul class="heroes">
   <li *ngFor="let hero of heroes">
     <a routerLink="/detail/{{hero.id}}">
       <span class="badge">{{hero.id}}</span> {{hero.name}}
     </a>
+    <button class="delete" title="delete hero" (click)="delete(hero)">x</button>
   </li>
 </ul>
+<div>
+  <label i18n="Hero name | Label for hero name input">Hero name:
+    <input #heroName />
+  </label>
+  <!-- (click) passes input value to add() and then clears the input -->
+  <button (click)="add(heroName.value); heroName.value=''" i18n="clear button">
+    add
+  </button>
+</div>

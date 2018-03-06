@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="es-AR" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="39f6c7ab721b2316268c18b8fd67a8445783234c" datatype="html">
+        <source> Tour of Heroes </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <note priority="1" from="description"> Site title seen throught the app</note>
+        <note priority="1" from="meaning">Site header </note>
+      </trans-unit>
+      <trans-unit id="efe3a30fe00754594e3ac927106e626528d64287" datatype="html">
+        <source>Dashboard</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description"> dashboard&apos;s dashboard button text</note>
+        <note priority="1" from="meaning">dashboard button </note>
+      </trans-unit>
+      <trans-unit id="9727e958827dc0a661d945eddbce3dcf29ebcd6c" datatype="html">
+        <source>Heroes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description"> dashboard&apos;s heroes button text</note>
+        <note priority="1" from="meaning">heroes button </note>
+      </trans-unit>
+      <trans-unit id="24eb37a6c1be4a95f8f7bf4cb845a955baa28418" datatype="html">
+        <source> HEROES </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/heroes/heroes.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <note priority="1" from="description"> Hero component title</note>
+        <note priority="1" from="meaning">Heroes </note>
+      </trans-unit>
+      <trans-unit id="969872163b8dbef7ff60994139fdb36ff47f8d23" datatype="html">
+        <source>Hero name:
+    <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/&gt;"/>
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/heroes/heroes.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description"> Label for hero name input</note>
+        <note priority="1" from="meaning">Hero name </note>
+      </trans-unit>
+      <trans-unit id="0f2288db23b83c53f4c11d048fca716a3b3de9c3" datatype="html">
+        <source>
+    add
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/heroes/heroes.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <note priority="1" from="description">clear button</note>
+      </trans-unit>
+      <trans-unit id="321267fcd37c2d192900097ea6bdaa75c6d42cd5" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ hero.name | uppercase }}"/> Details</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/hero-detail/hero-detail.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description"> Hero details title</note>
+        <note priority="1" from="meaning">Details </note>
+      </trans-unit>
+      <trans-unit id="d762f9d3c97cd0342660acfc4d15d1bfee70ce34" datatype="html">
+        <source>name:
+      <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/&gt;"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/hero-detail/hero-detail.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description"> Name label</note>
+        <note priority="1" from="meaning">Name </note>
+      </trans-unit>
+      <trans-unit id="c5f70aede841190815dace56a93d364bf8f447f4" datatype="html">
+        <source>save</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/hero-detail/hero-detail.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">save button</note>
+      </trans-unit>
+      <trans-unit id="498c59cee04355857c15b3dd248c3fd0bacb0273" datatype="html">
+        <source>go back</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/hero-detail/hero-detail.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">back button</note>
+      </trans-unit>
+      <trans-unit id="31542d63c583e1dc2fb63847c01e13c9770b478b" datatype="html">
+        <source>Messages</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/messages/messages.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description"> Messages view title</note>
+        <note priority="1" from="meaning">Messages </note>
+      </trans-unit>
+      <trans-unit id="608c2c2fd57206f39026b5f6226c5ba25a91495e" datatype="html">
+        <source>clear</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/messages/messages.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">clear button</note>
+      </trans-unit>
+      <trans-unit id="b582f2296203b75782fea54fbfec8c4cb6ec1fa6" datatype="html">
+        <source>Top Heroes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dashboard/dashboard.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <note priority="1" from="description"> Dashboard top heroes title</note>
+        <note priority="1" from="meaning">Top Heroes </note>
+      </trans-unit>
+      <trans-unit id="a85e017c04195746ab365965442c317207b9d540" datatype="html">
+        <source>Hero Search</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/hero-search/hero-search.component.ts</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <note priority="1" from="description"> Title for hero search component</note>
+        <note priority="1" from="meaning">Hero Search title </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
